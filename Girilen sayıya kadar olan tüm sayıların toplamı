@@ -1,0 +1,17 @@
+# include <stdio.h> 
+
+main ( ) 
+{ 
+ 
+int i,T=0,s1; 
+
+printf ("Bir sayi giriniz : "); scanf ("%d",&s1);
+
+for (i=1; i<=s1; i++)
+
+	{ 
+		T=T+i; 
+	} 
+		
+	printf ("Girdiginiz sayiya kadar olan sayilarin toplami : %d",T); 
+} 
