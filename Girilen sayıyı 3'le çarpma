@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <math.h>
+
+int main ()
+{
+
+int s1;
+
+	printf ("Bir sayi giriniz : "); scanf ("%d",&s1);
+	printf ("%d'nin 3 kati : %d\n",s1,s1*3);
+	
+}
