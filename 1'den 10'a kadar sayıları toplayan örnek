@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main ()
+
+{
+	int sayi [10];
+	int i,k,toplam,sonuc;
+	
+	for (i=1;i<11;i++)
+	
+	{
+	k=i*i;
+	toplam=toplam+k;
+	sonuc=toplam-1;
+	}
+	printf ("1den 10a kadar sayilarin toplami : %d",sonuc);
+}
