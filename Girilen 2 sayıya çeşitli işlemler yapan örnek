@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int topla (int x, int y)
+{
+	int sonuc=x+y;
+	return sonuc ;
+	
+}
+
+int carp (int a, int b)
+{
+	int sonuc=a*b;
+	return sonuc ;
+}
+
+int kareal(int s1, int s2)
+{
+	int sonuc=topla(s1,s2);
+	return carp (sonuc,sonuc);
+}
+
+
+int  main ()
+
+{
+	int a,b;
+	
+	printf ("2 deger giriniz : "); scanf ("%d%d", &a,&b);
+	printf ("Toplam = %d\n",topla(a,b));
+	printf ("Carpim = %d\n",carp(a,b));
+	printf ("Toplamin karesi = %d",kareal(a,b));
+	
+	
+		
+}
