@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main ()
+
+{
+	int sayi[5];
+	int i,k,toplam,sonuc;
+	
+	
+	for (i=1;i<6;i++)
+	
+	{
+	k=i*i;
+	toplam=toplam+k;
+	sonuc=toplam-1;
+	}
+	printf ("Toplam :%d",sonuc);
+
+}
