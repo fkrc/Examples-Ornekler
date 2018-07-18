@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int dnot,x,y,z;
+
+main ()
+{
+
+tekrar :
+
+printf ("Ogrencinin notunu giriniz : [1-5]\n",dnot);scanf ("%d",&dnot);
+
+switch (dnot)
+
+{
+	case 1:printf("Kaldı"); break;
+	case 2:printf("Kaldı"); break;
+	case 3:printf("Gecer not");break;
+	case 4:printf("Iyi");break;
+	case 5:printf("Pekiyi");break;
+	
+	default : printf ("Yanlis sayi girdin ! \n"); goto tekrar;}
+
+}
