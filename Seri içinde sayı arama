@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main ()
+
+{
+	
+	int sayilar[10],i,bulundu=0,sayi;
+	
+	printf ("10 adet sayi giriniz : \n");
+	
+	for (i=0;i<10;i++)
+	{
+		printf ("%d. sayiyi giriniz : ",i+1); scanf ("%d",&sayilar[i]);		
+	}
+	system ("CLS");
+	
+	printf ("Aranacak sayi degeri : "); scanf ("%d",&sayi);
+	
+	for (i=0;i<10;i++)
+	{
+		if (sayilar[i]==sayi)
+		{
+			bulundu=1; break;
+		}
+	}
+	if (bulundu==1)
+	{
+		printf ("Girdiginiz %d degeri dizinin %d. elemanidir",sayi,i+1);
+	}
+		else
+	{
+		printf ("Sayi bulunamadi.");
+	}
+	
+	
