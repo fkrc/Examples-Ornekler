@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+void satiratla()
+{
+	printf ("\n");
+}
+
+void kutuciz(int boy, int en)
+
+{
+	for (int i=0;i<boy;i++)
+	
+	{
+		for (int j=0;j<en;j++)
+		{
+			printf ("*");
+		}
+		satiratla();
+	}
+}
+
+
+int main()
+
+{
+	int boy,en;
+	
+	printf ("Boy giriniz : "); scanf ("%d",&boy);
+	printf ("En giriniz : "); scanf ("%d",&en);
+	kutuciz (boy,en);
+}
